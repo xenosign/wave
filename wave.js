@@ -14,6 +14,8 @@ export class Wave {
         this.centerX = stageWidth / 2;
         this.centerY = stageHeight / 2;
 
+        console.log(this.centerX, this.centerY);
+
         this.init();
     }
 

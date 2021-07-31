@@ -20,6 +20,8 @@ class App {
         this.stageWidth = document.body.clientWidth;
         this.stageHeight = document.body.clientHeight;
 
+        console.log(document.body.clientWidth, document.body.clientHeight);
+
         this.canvas.width = this.stageWidth * 2;
         this.canvas.height = this.stageHeight * 2;
 
