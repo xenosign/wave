@@ -19,7 +19,7 @@ export class Wave {
 
         this.pointGap = this.stageWidth / (this.totalPoints - 1);
 
-         this.init();
+        this.init();
     }
 
     init() {
